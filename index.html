@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebtehal Alzahrani - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div id="home">
+                    <h3 class="name">Ebtehal Alzahrani</h3>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                </ul>
+        </div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="about-container">
+                <img src="imges/logoMe.png" alt="Profile Image" class="profile-img" width="250">
+                <div class="about-text">
+                    <h2>Hi, I'm Ebtehal Alzahrani! 👋</h2>
+                    <p>
+                        A passionate and results-oriented Software Engineer with a strong foundation in software
+                        development, problem-solving, and teamwork. Proficient in programming, application development,
+                        and software design principles. Eager to contribute to innovative projects,
+                        enhance technical skills, and deliver impactful solutions in a collaborative environment.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZdMC_FB3iUt9yQZujx9L8Etp5FdbP75UJQ&s"
+                        alt="Dart" style="width: 35px; height:auto;">
+                    <h5>Dart</h5>
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn.pixabay.com/photo/2014/04/03/11/08/tea-311844_1280.png" alt="Java"
+                        style="width: 40px; height:auto;">
+                    <h5>HTML</h5>
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png?f=webp&w=256"
+                        alt="HTML" style="width: 35px; height:auto;">
+                    <h5>Java</h5>
+                </div>
+                <div class="skill-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTwzDfejQjrtyuTLtbhl78_QUBEtG86gBq7cIkjmtkpMgUuC7A6V9-l-UmgsX0mcz6wFk&usqp=CAU"
+                        alt="CSS" style="width: 35px; height:auto;">
+                    <h5>CSS</h5>
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png"
+                        alt="JavaScript" style="width: 35px; height:auto;">
+                    <h5>Java Script</h5>
+                </div>
+                <div class="skill-item">
+                    <img src="https://uiuxassets.com/media/site/d47f7ac79a-1631092114/icon-512x512.png" alt="UI/UX"
+                        style="width: 38px; height:auto;">
+                    <h5>UI/UX</h5>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h4 class="project-title">Estate Map:</h4>
+                    <p> An application for managing and displaying real estate properties.
+                        It allows users to view property details and enables owners to add
+                        and store properties using Firebase. </p>
+                    <hr>
+                </div>
+                <div class="project">
+                    <h4 class="project-title">The Red Hope Application:</h4>
+                    <p> A UI design project for a healthcare app focused on efficient blood
+                        donation management, featuring real-time notifications, health
+                        status verification, and location-based urgent blood requests. </p>
+                    <hr>
+                </div>
+                <div class="project">
+                    <h4 class="project-title">Tawajah Application:</h4>
+                    <p> A navigation app designed to enhance daily commutes by
+                        providing real-time updates on congestion, accidents, and road
+                        closures. </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendations -->
+        <section id="recommendations" class="section">
+            <h2>Recommendations</h2>
+            <div style="clear:both;"></div>
+            <div class="all_recommendations" id="all_recommendations">
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Ebtehal is a very quick learner and quickly grasps key concepts of Web development. She takes
+                    initiative within a team and has potentials to lead the team.
+                    <span>&#8221;</span>
+                </div>
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    I had worked along with Ebtehal during the initial phase of our venture which needed Web
+                    development. She is a committed resource who has in-depth knowledge about the domain. She will be an
+                    asset for any organisation!
+                    <span>&#8221;</span>
+                </div>
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Working with Ebtehal has been an awesome experience. She is highly knowledgeable and always goes the
+                    extra step to make sure everything is right. For any future projects that need her expertise I would
+                    definitely want to work with her again.
+                    <span>&#8221;</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendation Form -->
+        <section id="contact" class="recommendation-form">
+            <div class="flex_center">
+                <fieldset>
+                    <legend class="introduction">Leave a Recommendation</legend>
+                    <input type="text" placeholder="Name (Optional)"> <br />
+                    <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+                    <div class="flex_center">
+                        <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+
+        <div class="iconbutton">
+            <a href="#home"> <img src="https://img.icons8.com/?size=100&id=3196&format=png&color=FFFFFF" width="25"></a>
+        </div>
+
+        <div class="popup" id="popup" class="flex_center">
+            <img src="https://img.icons8.com/?size=100&id=114054&format=png&color=000000" width="60px" />
+            <h3>Thanks for leaving a recommendation!</h3>
+            <button onclick="showPopup(false)">Ok</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
